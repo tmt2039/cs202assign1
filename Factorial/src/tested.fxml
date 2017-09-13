@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="555.0" prefWidth="693.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Tested">
+   <children>
+      <PasswordField alignment="BOTTOM_LEFT" layoutX="304.0" layoutY="351.0" promptText="password">
+         <font>
+            <Font name="Comic Sans MS Italic" size="12.0" />
+         </font>
+      </PasswordField>
+      <PasswordField layoutX="301.0" layoutY="390.0" promptText="password confirm" />
+      <TextField layoutX="138.0" layoutY="37.0" />
+      <TextField layoutX="138.0" layoutY="79.0" />
+      <TextField layoutX="126.0" layoutY="215.0" promptText="111-111-1111" />
+      <Button layoutX="331.0" layoutY="464.0" mnemonicParsing="false" text="sign up" />
+      <CheckBox layoutX="126.0" layoutY="261.0" mnemonicParsing="false" text="female" />
+      <CheckBox layoutX="228.0" layoutY="261.0" mnemonicParsing="false" text="male" />
+      <Label layoutX="73.0" layoutY="41.0" text="first name" />
+      <Label layoutX="73.0" layoutY="83.0" text="last name" />
+      <Label layoutX="75.0" layoutY="219.0" text="SSN" textFill="#f21313" />
+      <Label layoutX="240.0" layoutY="356.0" text="password" />
+      <Label layoutX="192.0" layoutY="394.0" text="confirm password" />
+      <Text layoutX="20.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="password requirement :  " />
+      <Text layoutX="20.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1 special charcter" />
+      <Text layoutX="20.0" layoutY="420.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1 number" />
+      <TextField layoutX="301.0" layoutY="307.0" promptText="username" />
+      <Label layoutX="225.0" layoutY="311.0" text="username" />
+      <Label layoutX="46.0" layoutY="159.0" text="phone number" />
+      <TextField layoutX="151.0" layoutY="155.0" prefHeight="25.0" prefWidth="47.0" />
+      <Label layoutX="206.0" layoutY="150.0" prefHeight="17.0" prefWidth="14.0" text=")">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="134.0" layoutY="150.0" text="(">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="217.0" layoutY="155.0" prefHeight="25.0" prefWidth="47.0" />
+      <Label layoutX="272.0" layoutY="150.0" text="-">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="284.0" layoutY="155.0" prefHeight="25.0" prefWidth="57.0" />
+      <Label layoutX="72.0" layoutY="121.0" text="email" />
+      <TextField layoutX="143.0" layoutY="117.0" promptText="xxxx@mailxxx" />
+      <Label layoutX="19.0" layoutY="365.0" text="1 lowercase letter" />
+      <Label layoutX="18.0" layoutY="386.0" text="1 uppercase letter" />
+      <Label layoutX="58.0" layoutY="261.0" text="gender" />
+   </children>
+</AnchorPane>
